@@ -2,7 +2,7 @@
   "name": "kube-boot",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/runner.js",
+  "main": "lib/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/coyle-club/kube-boot.git"
@@ -13,6 +13,7 @@
     "url": "https://github.com/coyle-club/kube-boot/issues"
   },
   "scripts": {
+    "build": "tsc",
     "lint": "eslint src --ext .ts"
   },
   "homepage": "https://github.com/coyle-club/kube-boot#readme",
